@@ -9,21 +9,21 @@ cask "rstream" do
     "darwin" => {
       "amd64" => {
         url: "https://dev.rstream.io/api/packages/65a1dc77fe469264f9f8af51/download",
-        sha256: "3dd89b7c760f5020dcf8edf4364d2621ad6b7e409409d329681762e88b4a4c8f",
+        sha256: "c4174dbbc5c115233c8e7f0b4eea3f0b35549bfafc8bb71736f8966b0acbf399",
       },
       "arm64" => {
         url: "https://dev.rstream.io/api/packages/65a1dc79fe469264f9f8af52/download",
-        sha256: "efe6283dab87bb22a4ab263e1b51ba21c5ce169caa756f4a9b58418efe5a9c24",
+        sha256: "d6a07e7799158b14a44ba488a2676cb9f94dbbc826067185ab1a5d3a43ef5951",
       }
     },
     "linux" => {
       "amd64" => {
         url: "https://dev.rstream.io/api/packages/65a1dc8391359ad8e7482498/download",
-        sha256: "bd67857f991d828797e8439818e5410cc2283e0e68c0d77411ddbd36b6b3885b",
+        sha256: "2b681016383e5919e94b54036ef988a8026286d743f84db921af4034898f04de",
       },
       "arm64" => {
         url: "https://dev.rstream.io/api/packages/65a1dc8691359ad8e7482499/download",
-        sha256: "a76047d65c9ae3c917b72e761757d07b91a6d79289fbec62fa7547f6f5e30b31",
+        sha256: "8fdfbf378094ff928938631f93fc56c8030c7c1fa71ade77a5341ac3774a9ab5",
       }
     }
   }
