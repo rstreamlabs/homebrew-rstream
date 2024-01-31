@@ -2,28 +2,28 @@ cask "rstream" do
   name "rstream"
   desc "secure, scalable, and sovereign networking for the modern enterprise."
   homepage "https://rstream.io"
-  version "0.0.39"
+  version "0.0.40"
   os = OS.mac? ? "darwin" : "linux"
   arch = Hardware::CPU.intel? ? "amd64" : "arm64"
   packages = {
     "darwin" => {
       "amd64" => {
-        url: "https://dev.rstream.io/api/packages/65b9eadd65267ac3339ce33c/download",
-        sha256: "2f168f6a3176dd17b65c971df5c92b9431ba362f61f9a1068fb1245e16961df2",
+        url: "https://dev.rstream.io/api/packages/65b9ece9ca903b897f048cc9/download",
+        sha256: "4adc4a508aa78572afe5aec0623fefdc6f5fd796da5a8179580010a0755d09d7",
       },
       "arm64" => {
-        url: "https://dev.rstream.io/api/packages/65b9eadeee18a662bb2979f0/download",
-        sha256: "2714287ba339396c9d3b7fad5dc1f76c584368636824ea3fb16a3261dd550a7d",
+        url: "https://dev.rstream.io/api/packages/65b9ece9539ff8c7671b3c06/download",
+        sha256: "a2dbe49f1cdb339435d9e370147b7629297eb542eba4f14796e30d7460e6df80",
       }
     },
     "linux" => {
       "amd64" => {
-        url: "https://dev.rstream.io/api/packages/65b9eae265267ac3339ce340/download",
-        sha256: "871390a7475b79c659bceb550d9deadd27c7289ee7db6e69edf348f205eb20fb",
+        url: "https://dev.rstream.io/api/packages/65b9ecee539ff8c7671b3c0a/download",
+        sha256: "cc73e3e8652ff33abe0adabc4b2c3163b2924f23560d4a9985662507f6133728",
       },
       "arm64" => {
-        url: "https://dev.rstream.io/api/packages/65b9eae4ee18a662bb2979f6/download",
-        sha256: "f942a28d3d753b46b5a7dc97c76df77314ff0ff7c7dd19efd1fcf6aef69444a0",
+        url: "https://dev.rstream.io/api/packages/65b9ecf0539ff8c7671b3c0b/download",
+        sha256: "bdbca6b3e2c52ca32d8587d70e373e6a1ab0d5bf9376d4aa7ffcb749269a63a4",
       }
     }
   }
