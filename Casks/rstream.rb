@@ -3,10 +3,10 @@ cask "rstream" do
   desc "Powerful Tunnels for Modern Applications."
   homepage "https://rstream.io"
   version "0.0.51"
-  os = OS.mac? ? "darwin" : "linux"
+  os = OS.mac? ? "macos" : "linux"
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
   packages = {
-    "darwin" => {
+    "macos" => {
       "x86_64" => {
         url: "https://rstream.io/api/packages/667a5cf359f6517052cef7dc/download",
         sha256: "cbb03b9d7a4459aea2b2eb01a27d8c6f77b1396b8d7abae766a0893c790da276",
