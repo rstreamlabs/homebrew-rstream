@@ -2,28 +2,28 @@ cask "rstream" do
   name "rstream"
   desc "Powerful Tunnels for Modern Applications."
   homepage "https://rstream.io"
-  version "0.0.49"
+  version "0.0.51"
   os = OS.mac? ? "darwin" : "linux"
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
   packages = {
     "darwin" => {
       "x86_64" => {
-        url: "https://rstream.io/api/packages/664bb06238f64947c5e6872c/download",
-        sha256: "45e5a9555fd7797bc0e2ccc7c899b62aeaf7698d9f030d2254836e9e6b300d47",
+        url: "https://rstream.io/api/packages/667a5cf359f6517052cef7dc/download",
+        sha256: "cbb03b9d7a4459aea2b2eb01a27d8c6f77b1396b8d7abae766a0893c790da276",
       },
       "arm64" => {
-        url: "https://rstream.io/api/packages/664bb06238f64947c5e6872d/download",
-        sha256: "cc8e1f0c56bf43c2f1d3b9a38652dbe8ec25e9b529d87e92bc2d3c4cd208d5f8",
+        url: "https://rstream.io/api/packages/667a5cf759f6517052cef7e0/download",
+        sha256: "eb16d945ce5b348823009ac8053e3bb1b7d461a83b39850c17445f85dfe2c971",
       }
     },
     "linux" => {
       "x86_64" => {
-        url: "https://rstream.io/api/packages/664bb06538f64947c5e68735/download",
-        sha256: "26423a43bd91d2c588081cd55cadc04767adcdd8779a2a2ee34f9005818b514d",
+        url: "https://rstream.io/api/packages/667a5d0459f6517052cef7ef/download",
+        sha256: "c609b4cb295058208d6871c68dfeb84f36aaf775fc05e761ed728192b6520f85",
       },
       "arm64" => {
-        url: "https://rstream.io/api/packages/664bb06638f64947c5e68738/download",
-        sha256: "4f0e653739c4db61c6af02e8926a98d0cb374a22eae156b951447710e297bcd5",
+        url: "https://rstream.io/api/packages/667a5d0b59f6517052cef7f7/download",
+        sha256: "fa96aee825de97473fd44d7baf2a620a473526c61b00e6280206133cfbb82cfa",
       }
     }
   }
